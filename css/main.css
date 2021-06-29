@@ -1,0 +1,211 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Arimo', sans-serif;
+    color: #484848;
+}
+
+.container {
+    max-width: 1192px;
+    border: 20px solid #3a4965;
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+    color: #484848;
+}
+
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+}
+
+.type td:first-child {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    width: 25%;
+}
+
+/* Шапка/Название пакетов */
+.price__big {
+    font-size: 3.75rem;
+    font-weight: bold;
+}
+
+.price td{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.price__middle {
+    display: inline-block;
+    padding-left: .3rem;
+}
+
+.price div:first-child {
+    padding-left: .3rem;
+}
+
+.price__middle span:nth-child(1){
+    font-size: 1.5rem;
+    font-weight: bold;
+    float: left;
+    padding-right: 3.6rem;
+    padding-bottom: .2rem;
+}
+
+.price__middle span:nth-child(3) {
+    font-size: 1.1rem;
+    display: inline-block;
+    
+}
+
+.name span:first-child {
+    font-size: 1.1rem;
+    text-shadow: .7px 0px 6px #a4a3a3;
+}
+
+.name span:last-child {
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-shadow: .4px 0px 6px #a4a3a3;
+}
+
+/* Всякие тени, границы */
+tbody td {
+    box-shadow: 0px .3px  3px rgb(179, 177, 177);
+    border-right: 0px solid rgb(179, 177, 177);
+    border-left: 0px solid rgb(179, 177, 177);
+    border-top: none;
+    border-bottom: none;
+}
+
+thead td {
+    box-shadow: 0px .3px 3px rgb(179, 177, 177);
+    border-right: 0px solid rgb(179, 177, 177);
+    border-left: 0px solid rgb(179, 177, 177);
+    border-top: none;
+    border-bottom: none;
+}
+
+tfoot td {
+    box-shadow: 0px .3px 3px rgb(179, 177, 177);
+    border-right: 0px solid rgb(179, 177, 177);
+    border-left: 0px solid rgb(179, 177, 177);
+    border-top: none;
+    border-bottom: none;
+}
+
+.type td:first-child {
+    background-color: #FAFAFA;
+}
+
+.type td:nth-child(2) {
+    background-color: #89C331;
+    font-size: 1.5rem;
+    color: white;
+    text-shadow: .4px 0px 2px #ffff;
+    padding: 1.2rem;
+}
+
+.type td:nth-child(3) {
+    background-color: #F04A56;
+    font-size: 1.85rem;
+    color: white;
+    text-shadow: .4px 0px 7px #ffff;
+    padding: 1.2rem;
+}
+
+.type td:nth-child(4) {
+    background-color: #20807C;
+    font-size: 1.5rem;
+    color: white;
+    text-shadow: .4px 0px 2px #ffff;
+    padding: 1.2rem;
+}
+
+/* Иконки */
+tbody tr td:first-child {
+    padding-top: 1.4rem;
+    padding-bottom: 0.6rem;
+    box-shadow: none;
+}
+
+tbody img {
+    padding-right: 0.5rem;
+    display: inline-block;
+}
+
+tbody div {
+    display: inline-block;
+    vertical-align: middle;
+    padding-bottom: 0.8rem;
+}
+
+.bandwidth img {
+    padding-bottom: 0.2rem;
+}
+
+.bandwidth tr td {
+    padding-bottom: 0.2rem
+}
+
+.storage img, .email img {
+    padding-bottom: 0.1rem;
+}
+
+/* Цвет фона ячеек*/
+tbody tr:nth-child(odd) {
+    background-color: #F2F2F2;
+}
+tbody tr:nth-child(even) {
+    background-color: #E3E3E3;
+}
+
+/* Кнопки, низ таблицы */
+
+tfoot td {
+    background-color: #DDDDDD;
+}
+
+.buttons a{
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+    padding-right: 3rem;
+    padding-left: 3rem;
+    margin: 1.8rem 2.6rem;
+    color: white;
+    vertical-align: middle;
+    display: inline-block;
+    border-radius: 8px 8px;
+    box-shadow: inset 0 -4px rgba(45, 45, 45, 0.269);
+}
+
+.buttons td {
+    background-color: #EEEEEE;
+}
+.button__1 {
+    background-color: #484848;
+}
+
+.button__2 {
+    background-color: #89C331;
+}
+
+.button__3 {
+    background-color: #F04A56;
+}
+
+.button__4 {
+    background-color: #20807C;
+}
+ 
+.buttons td:first-child{
+    background-color: #E3E3E3;
+}
